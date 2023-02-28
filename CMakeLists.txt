@@ -20,13 +20,13 @@ LU_DEFINE_VERSION_ATOM(LIBUSB_MICRO)
 LU_DEFINE_VERSION_RC_ATOM(LIBUSB_RC)
 
 project(
-    libusb
+    luxonix-libusb
     VERSION "${LIBUSB_MAJOR}.${LIBUSB_MINOR}.${LIBUSB_MICRO}${LIBUSB_RC}"
     LANGUAGES C CXX
 )
 
 # Creates library target "usb-1.0"
-set(TARGET_NAME usb-1.0)
+set(TARGET_NAME luxonix-usb-1.0)
 add_library(${TARGET_NAME})
 get_cmake_property(is_multi_config GENERATOR_IS_MULTI_CONFIG)
 if(is_multi_config)
