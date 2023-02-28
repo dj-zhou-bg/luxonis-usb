@@ -26,7 +26,7 @@ project(
 )
 
 # Creates library target "usb-1.0"
-set(TARGET_NAME luxonix-usb-1.0)
+set(TARGET_NAME luxonis-usb-1.0)
 add_library(${TARGET_NAME})
 get_cmake_property(is_multi_config GENERATOR_IS_MULTI_CONFIG)
 if(is_multi_config)
