@@ -351,7 +351,7 @@ install(TARGETS ${TARGET_NAME}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
-install(FILES libusb/libusb.h DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/libusb-1.0/)
+install(FILES libusb/libusb.h DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/luxonis-usb-1.0/)
 
 set(config_install_dir "${CMAKE_INSTALL_LIBDIR}/cmake/${TARGET_NAME}")
 export(TARGETS
